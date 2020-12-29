@@ -1,14 +1,13 @@
 import Head from "next/head";
-import Container from "../components/Container";
-import Nav from "../components/nav";
-import styles from "../styles/Home.module.css";
+import Nav from "../../components/nav";
+import styles from "../../styles/Home.module.css";
 
-export default function Home() {
+export default function Contact() {
   return (
     <Container>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a>Home</a>
+          Welcome to <a>Contact</a>
         </h1>
 
         <p className={styles.description}></p>
