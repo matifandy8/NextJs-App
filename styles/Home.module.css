@@ -120,3 +120,18 @@
     flex-direction: column;
   }
 }
+
+.user {
+  display: flex;
+  box-shadow: black;
+  list-style: none;
+  border: 0.1px solid rgba(0, 0, 0, 0.282);
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.user:hover {
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.412);
+  z-index: 1;
+}

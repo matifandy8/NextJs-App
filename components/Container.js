@@ -7,6 +7,7 @@ export default function Container(props) {
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <title>Next.js App</title>
       </Head>
       <Nav />
       <div>{props.children}</div>
